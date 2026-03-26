@@ -15,7 +15,9 @@ No installation required — just run it.
 
 ## What does it do?
 
-PaperZD can auto-import sprite sheets and generate Flipbooks from a `.json` file that describes where each animation frame lives in the texture. This tool lets artists create that file visually, without touching any code.
+Working with PaperZD requires a `.json` file that maps every animation frame in your sprite sheet to its pixel position in the texture. This tool lets you build it visually instead.
+
+Load your sprite sheet, set the cell size, create your animation sets, click the frames in order, and hit **Generate JSON**. That's it — no code, no spreadsheets, no guessing pixel coordinates.
 
 ---
 
