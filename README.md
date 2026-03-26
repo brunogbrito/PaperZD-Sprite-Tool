@@ -2,6 +2,8 @@
 
 A free, no-code desktop tool for 2D artists to generate the JSON files required by the **[PaperZD](https://www.fab.com/listings/f4d2c7d9-6e93-4cd1-a0b5-f1dc69d99c17)** Unreal Engine plugin — no Python, no terminal, just double-click and go.
 
+![PaperZD Sprite Tool screenshot](screenshot.png)
+
 ---
 
 ## ⬇️ Download
