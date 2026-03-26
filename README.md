@@ -47,6 +47,7 @@ Save the `.json` file next to your texture PNG.
 ### 6 · Import into Unreal
 Drag the `.json` into your Unreal project — PaperZD will automatically detect the JSON and create the Sprites for you.
 (the sprite image must be in the same folder as the .json)
+
 ---
 
 ## License
