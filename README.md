@@ -6,7 +6,7 @@ A free, no-code desktop tool for 2D artists to generate the JSON files required 
 
 ## ⬇️ Download
 
-Grab the latest **`PaperZD Sprite Tool.exe`** from the [**Releases**](https://github.com/brunogbrito/SpriteTool/releases) page.  
+Grab the latest **`PaperZD Sprite Tool.exe`** from the [**Releases**](https://github.com/brunogbrito/PaperZD-Sprite-Tool/releases) page.  
 No installation required — just run it.
 
 ---
@@ -42,32 +42,6 @@ Save the `.json` file next to your texture PNG.
 
 ### 6 · Import into Unreal
 Drag both the `.png` and the `.json` into your Unreal project — PaperZD will automatically detect the JSON and create the Flipbooks for you.
-
----
-
-## Example
-
-The `Example/Example_Char/` folder contains a sample sprite sheet and its matching JSON so you can see the expected output format.
-
----
-
-## Building from source
-
-If you want to run or modify the source:
-
-```bash
-# Requirements: Python 3.10+
-pip install pillow pyinstaller
-
-# Run directly
-python SpriteTool.py
-
-# Build the .exe
-pyinstaller SpriteTool.py --onefile --windowed --name "PaperZD Sprite Tool"
-# Output: dist/PaperZD Sprite Tool.exe
-```
-
-The GitHub Actions workflow (`.github/workflows/build.yml`) builds and attaches the `.exe` automatically whenever a new release tag (`v*`) is pushed.
 
 ---
 
