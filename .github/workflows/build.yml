@@ -1,0 +1,35 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - "v*"          # triggers on any tag like v1.0, v1.2.3, etc.
+
+permissions:
+  contents: write     # needed to create GitHub Releases and upload assets
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pillow pyinstaller
+
+      - name: Build executable
+        run: |
+          pyinstaller SpriteTool.py --onefile --windowed --name "PaperZD Sprite Tool" --clean
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/PaperZD Sprite Tool.exe
+          generate_release_notes: true
