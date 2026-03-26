@@ -17,7 +17,7 @@ No installation required — just run it.
 
 Working with PaperZD requires a `.json` file that maps every animation frame in your sprite sheet to its pixel position in the texture. This tool lets you build it visually instead.
 
-Load your sprite sheet, set the cell size, create your animation sets, click the frames in order, and hit **Generate JSON**. That's it — no code, no spreadsheets, no guessing pixel coordinates.
+Load your sprite sheet, set the cell size, create your animation sets, click the frames in order, and hit **Generate JSON**. That's it, no code, no spreadsheets, no guessing pixel coordinates.
 
 ---
 
