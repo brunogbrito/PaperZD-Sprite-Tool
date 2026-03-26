@@ -9,7 +9,7 @@ A free, no-code desktop tool for 2D artists to generate the JSON files required 
 ## ⬇️ Download
 
 Grab the latest **`PaperZD Sprite Tool.exe`** from the [**Releases**](https://github.com/brunogbrito/PaperZD-Sprite-Tool/releases) page.  
-No installation required — just run it.
+No installation required, just run it.
 
 ---
 
